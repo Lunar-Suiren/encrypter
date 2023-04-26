@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container logo">
+            <img src="./Logo1x.png" alt="logoAlura" id="imgLogo">
+        </div>  
+    </header>
+<main>
+    <div class="container main-container">   
+        <div class="inputarea">
+            <textarea type="text" id="inputText" class="textareainput" placeholder="ingrese el texto aquí"></textarea>
+        </div>
+
+        <div class="character-container">
+            <textarea type="text" id="outputText" class="outputarea" cols="30" rows="10"></textarea>
+            <!-- <button id="copyButton" class="buttons button3">Copiar</button> -->
+            <input class="buttons button3" type="button" value="Copiar" id="copyButton">
+            <img class="character" src="./muñeco.png" alt="aluraCharacter">
+        </div>
+
+        <div class="inputarea info">
+            <img src="./exclamation circle.png" alt="exclamationCircle">
+            <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="inputarea1">     
+            <input class="buttons button1" type="button" value="Encriptar" id="botonEncriptar">
+        </div>
+
+        <div class="inputarea2">
+            <input class="buttons button2" type="button" value="Desencriptar" id="botonDesencriptar">
+        </div>
+    </div>      
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
